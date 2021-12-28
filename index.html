@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoot Ahead</title>
+    <link rel="stylesheet" href="./Styling/Styling.css">
+</head>
+<body>
+    <div id="MainMenu">
+        <h1 id='head'>Shoot Ahead</h1>
+        <button id="start" class="btn">Start</button>
+        <button id="again" class="btn">Play Again</button>
+    </div>
+    <div id="container">
+        <div id="round">
+            <h3>Round 1</h3>
+        </div>
+        <div class="info">
+            <div class="player" id="player1">Player 1: 0</div>
+            <div class="player" id="player2">Player 2: 0</div>
+        </div>
+        <div id="board">
+            <div class="healthbar">
+                <div class="health" id="health1">100</div>
+            </div>
+            <div id="scenery">
+                <img src="./Images/left.gif" class="gun" id='gunleft' alt="">
+                <img src="./Images/right.gif" class="gun" id='gunright' alt="">
+            </div>
+            <div class="healthbar">
+                <div class="health" id="health2">100</div>
+            </div>
+        </div>
+        <div id="footer">
+            <button class="btn" id="shoot">shoot</button>
+            <button class="btn" id="next">Next Round</button>
+            <button class="btn" id="GoMenu">Main Menu</button>
+        </div>
+    </div>
+</body>
+<script src="./Logic/Logic.js"></script>
+</html>
